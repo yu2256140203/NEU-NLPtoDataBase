@@ -1,5 +1,5 @@
-# Nlp_to_Database_Vue
-
+# Nlp_to_Database_Vue 
+## 基于Aliyun通义千问的自然语言交互数据库-Vue前端
 ## Project setup
 ```
 npm install
