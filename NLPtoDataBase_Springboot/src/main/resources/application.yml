@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    username: flykiss
+    password: yu123456
+    #?serverTimezone=UTC解决时区的报错
+    url: jdbc:mysql://146.56.186.20:3306/flykiss?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      max-lifetime: 300000 # 最大存活时间
+      idle-timeout: 30000 # 空闲超时时间
+      connection-timeout: 2000 # 获取连接超时时间
+      validation-timeout: 1000 # 验证连接超时时间
+
+mybatis:
+  mapper-locations: classpath:mybatis/mapper/*.xml
+  type-aliases-package: com.example.watermanagement.model
