@@ -1,4 +1,4 @@
-# nlp_to_database
+# Nlp_to_Database_Vue
 
 ## Project setup
 ```
