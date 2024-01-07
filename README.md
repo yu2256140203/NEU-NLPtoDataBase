@@ -18,7 +18,8 @@ Azure语言服务：使用语音转文字和文字转语音的功能，将用户
 &ensp;&ensp;在输出框中，用户可以看到自然语言需求对应的数据库返回的结果，同时通过扬声器播放自然语言结果。<br/>
 &ensp;&ensp;通过测试不同的自然语言需求，可以看到前端页面能够正常地与后端和大语言模型进行交互，实现用户需求的转换和查询，以及结果的展示和播放。<br/>
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/direct/1e78bf8bb84f4e809d557173a832a90f.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/direct/1f9af5495d134afbbfaac599259dd93a.png)
+
 
 ## 2.Springboot后端开发
 ### 2.1  技术方案
@@ -30,7 +31,8 @@ Azure语言服务：使用语音转文字和文字转语音的功能，将用户
 &ensp;&ensp;database_to_nlp方法：生成一句自然语言，根据数据库返回的查询结果，解释数据库表student的结构和数据。该方法接收一个字符串参数，即数据库的查询结果，返回一个字符串，即对应的自然语言。<br/>
 ### 2.2实验结果分析
 &ensp;&ensp;通过Postman工具，模拟前端发送不同的自然语言需求，可以看到后端服务能够正常地接收和处理请求，以及返回响应。<br/>
-![在这里插入图片描述](https://img-blog.csdnimg.cn/direct/f50b7b62e7944a09a84fefeaab925d88.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/direct/bb728a69f25d4043b5abe936b2221e1c.png)
+
 
 &ensp;&ensp;通过查看后端日志，可以看到后端服务能够正常地调用阿里云通义千问的API，实现用户自然语言和SQL语句的相互转换，以及数据库结果的自然语言生成。<br/>
 &ensp;&ensp;通过查看数据库，可以看到后端服务能够正常地执行SQL语句，实现数据库的查询和更新，以及数据的返回,以下是“查询所有学生”得到的查询结果：<br/>
@@ -50,10 +52,12 @@ Azure语言服务：使用语音转文字和文字转语音的功能，将用户
 
 
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/direct/ffd4d9ce0d864cf0ac62f5763b03a144.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/direct/a62657ec042248c5bf8f17d5516e6b87.png)
+
 
 &ensp;&ensp;通过比较不同的自然语言需求和SQL语句，可以看到通义千问的大语言模型能够准确地理解用户的意图，生成合理的SQL语句，实现用户需求的转换。<br/>
 &ensp;&ensp;通过比较不同的数据库结果和自然语言结果，可以看到通义千问的大语言模型能够流畅地生成自然语言，表达数据库的结果，实现结果的生成。<br/>
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/direct/81345acced0d4fcba0715bfd49fe2dbf.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/direct/fe5b884d83f94febaf9104b29039f87f.png)
+
 
