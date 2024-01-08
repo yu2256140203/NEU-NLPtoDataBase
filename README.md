@@ -1,5 +1,5 @@
 # NEU-NLPtoDataBase
-### 项目详细介绍视频：https://github.com/yu2256140203/NEU-NLPtoDataBase/blob/main/%E9%A1%B9%E7%9B%AE%E8%AF%A6%E7%BB%86%E4%BB%8B%E7%BB%8D.mp4
+### 项目详细介绍视频：https://github.com/yu2256140203/NEU-NLPtoDataBase/blob/main/NLPtoDataBase_Display.mp4
 <br/>基于Aliyun通义千问的自然语言交互数据库<br/>
 项目基础介绍：<br/>
 前端开发：使用Vue+Vuetify框架，实现用户界面的设计和交互，以及Azure语音转文字的功能。<br/>
